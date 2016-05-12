@@ -6,7 +6,7 @@ automatically copies all of the JAR files on the projects classpath to your proj
 also adds each of the JAR files to the Class-Path element in the application
 JAR files manifest file (MANIFEST.MF).
 
-    To run this project from the command line, go to the dist folder and
+    To run a specific program from the command line, go to the main dist folder of the program and
     type the following:
 
       java -jar "name of the program" .jar 
