@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MVDData version="1.3">
+    <DesignDocument designVersion="MIDP-1" uidCounter="34">
+        <DesignComponent id="$MobileDevice" typeid="MIDP:$MobileDevice" uid="0"/>
+        <DesignComponent id="$StartPoint" typeid="MIDP:$StartPoint" uid="1">
+            <Property name="targetDisplayable" value="Inputan"/>
+            <Property name="targetForwardDisplayable"/>
+        </DesignComponent>
+        <DesignComponent id="Inputan" typeid="MIDP:javax.microedition.lcdui.TextBox" uid="3">
+            <Property name="title" value="STRING:MASUKAN PESAN"/>
+            <Property name="string" value="STRING:"/>
+            <Property name="maxSize" value="160"/>
+            <Property name="ticker" value="ticker1"/>
+            <ContainerProperty name="commands">
+                <ContainerPropertyItem value="$CommandAction1"/>
+            </ContainerProperty>
+        </DesignComponent>
+        <DesignComponent id="getKunci" typeid="MIDP:javax.microedition.lcdui.Command" uid="4">
+            <Property name="label" value="STRING:Ok"/>
+            <Property name="priority" value="1"/>
+            <Property name="type" value="ITEM"/>
+        </DesignComponent>
+        <DesignComponent id="$CommandAction1" typeid="MIDP:CommandAction" uid="5">
+            <Property name="targetDisplayable" value="Kunci"/>
+            <Property name="targetForwardDisplayable"/>
+            <Property name="actionSource" value="getKunci"/>
+            <Property name="actionOrigin" value="Inputan"/>
+        </DesignComponent>
+        <DesignComponent id="kembali" typeid="MIDP:javax.microedition.lcdui.Command" uid="6">
+            <Property name="label" value="STRING:Kembali"/>
+            <Property name="priority" value="2"/>
+            <Property name="type" value="BACK"/>
+        </DesignComponent>
+        <DesignComponent id="Kunci" typeid="MIDP:javax.microedition.lcdui.Form" uid="8">
+            <ContainerProperty name="commands">
+                <ContainerPropertyItem value="$CommandAction2"/>
+                <ContainerPropertyItem value="$CommandAction3"/>
+                <ContainerPropertyItem value="$CommandAction6"/>
+            </ContainerProperty>
+            <ContainerProperty name="items">
+                <ContainerPropertyItem value="textField1"/>
+            </ContainerProperty>
+        </DesignComponent>
+        <DesignComponent id="textField1" typeid="MIDP:javax.microedition.lcdui.TextField" uid="9">
+            <Property name="label" value="STRING:Masukkan Kunci"/>
+            <Property name="maxSize" value="32"/>
+            <Property name="constraints" value="65536"/>
+            <ContainerProperty name="commands"/>
+        </DesignComponent>
+        <DesignComponent id="Encrypt1" typeid="MIDP:javax.microedition.lcdui.Command" uid="10">
+            <Property name="label" value="STRING:Enkripsi"/>
+            <Property name="priority" value="1"/>
+            <Property name="type" value="OK"/>
+        </DesignComponent>
+        <DesignComponent id="$CommandAction2" typeid="MIDP:CommandAction" uid="11">
+            <Property name="targetDisplayable" value="Outputan"/>
+            <Property name="targetForwardDisplayable"/>
+            <Property name="actionSource" value="Encrypt1"/>
+            <Property name="actionOrigin" value="Kunci"/>
+        </DesignComponent>
+        <DesignComponent id="Outputan" typeid="MIDP:javax.microedition.lcdui.TextBox" uid="13">
+            <Property name="title" value="STRING:Hasil"/>
+            <Property name="maxSize" value="160"/>
+            <ContainerProperty name="commands">
+                <ContainerPropertyItem value="$CommandAction4"/>
+                <ContainerPropertyItem value="$CommandAction7"/>
+            </ContainerProperty>
+        </DesignComponent>
+        <DesignComponent id="NomorHP" typeid="MIDP:javax.microedition.lcdui.Form" uid="14">
+            <ContainerProperty name="commands">
+                <ContainerPropertyItem value="$CommandAction5"/>
+                <ContainerPropertyItem value="$CommandAction8"/>
+            </ContainerProperty>
+            <ContainerProperty name="items">
+                <ContainerPropertyItem value="textField2"/>
+            </ContainerProperty>
+        </DesignComponent>
+        <DesignComponent id="textField2" typeid="MIDP:javax.microedition.lcdui.TextField" uid="15">
+            <Property name="label" value="STRING:Nomor Tujuan"/>
+            <Property name="maxSize" value="120"/>
+            <Property name="constraints" value="3"/>
+            <ContainerProperty name="commands"/>
+        </DesignComponent>
+        <DesignComponent id="Hslanjut" typeid="MIDP:javax.microedition.lcdui.Command" uid="16">
+            <Property name="label" value="STRING:Ok"/>
+            <Property name="priority" value="1"/>
+            <Property name="type" value="OK"/>
+        </DesignComponent>
+        <DesignComponent id="$CommandAction4" typeid="MIDP:CommandAction" uid="17">
+            <Property name="targetDisplayable" value="NomorHP"/>
+            <Property name="targetForwardDisplayable"/>
+            <Property name="actionSource" value="Hslanjut"/>
+            <Property name="actionOrigin" value="Outputan"/>
+        </DesignComponent>
+        <DesignComponent id="KirimLanjut" typeid="MIDP:javax.microedition.lcdui.Command" uid="18">
+            <Property name="label" value="STRING:Kirim"/>
+            <Property name="priority" value="1"/>
+            <Property name="type" value="OK"/>
+        </DesignComponent>
+        <DesignComponent id="$CommandAction5" typeid="MIDP:CommandAction" uid="19">
+            <Property name="targetDisplayable" value="Status"/>
+            <Property name="targetForwardDisplayable"/>
+            <Property name="actionSource" value="KirimLanjut"/>
+            <Property name="actionOrigin" value="NomorHP"/>
+        </DesignComponent>
+        <DesignComponent id="Status" typeid="MIDP:javax.microedition.lcdui.Form" uid="20">
+            <ContainerProperty name="commands">
+                <ContainerPropertyItem value="$CommandAction10"/>
+            </ContainerProperty>
+            <ContainerProperty name="items"/>
+        </DesignComponent>
+        <DesignComponent id="Command8" typeid="MIDP:javax.microedition.lcdui.Command" uid="21">
+            <Property name="label" value="STRING:Dekripsi"/>
+            <Property name="priority" value="1"/>
+            <Property name="type" value="OK"/>
+        </DesignComponent>
+        <DesignComponent id="$CommandAction3" typeid="MIDP:CommandAction" uid="22">
+            <Property name="targetDisplayable" value="Outputan"/>
+            <Property name="targetForwardDisplayable" value="Kunci"/>
+            <Property name="actionSource" value="Command8"/>
+            <Property name="actionOrigin" value="Kunci"/>
+        </DesignComponent>
+        <DesignComponent id="Kembali" typeid="MIDP:javax.microedition.lcdui.Command" uid="23">
+            <Property name="label" value="STRING:Back"/>
+            <Property name="priority" value="1"/>
+            <Property name="type" value="BACK"/>
+        </DesignComponent>
+        <DesignComponent id="$CommandAction6" typeid="MIDP:CommandAction" uid="24">
+            <Property name="targetDisplayable" value="Inputan"/>
+            <Property name="targetForwardDisplayable"/>
+            <Property name="actionSource" value="kembali"/>
+            <Property name="actionOrigin" value="Kunci"/>
+        </DesignComponent>
+        <DesignComponent id="balikoutput" typeid="MIDP:javax.microedition.lcdui.Command" uid="25">
+            <Property name="label" value="STRING:Kembali"/>
+            <Property name="priority" value="1"/>
+            <Property name="type" value="BACK"/>
+        </DesignComponent>
+        <DesignComponent id="$CommandAction7" typeid="MIDP:CommandAction" uid="26">
+            <Property name="targetDisplayable" value="Kunci"/>
+            <Property name="targetForwardDisplayable"/>
+            <Property name="actionSource" value="balikoutput"/>
+            <Property name="actionOrigin" value="Outputan"/>
+        </DesignComponent>
+        <DesignComponent id="baliknomor" typeid="MIDP:javax.microedition.lcdui.Command" uid="27">
+            <Property name="label" value="STRING:Kembali"/>
+            <Property name="priority" value="1"/>
+            <Property name="type" value="BACK"/>
+        </DesignComponent>
+        <DesignComponent id="$CommandAction8" typeid="MIDP:CommandAction" uid="28">
+            <Property name="targetDisplayable" value="Outputan"/>
+            <Property name="targetForwardDisplayable"/>
+            <Property name="actionSource" value="baliknomor"/>
+            <Property name="actionOrigin" value="NomorHP"/>
+        </DesignComponent>
+        <DesignComponent id="keluarstatus" typeid="MIDP:javax.microedition.lcdui.Command" uid="29">
+            <Property name="label" value="STRING:keluar"/>
+            <Property name="priority" value="1"/>
+            <Property name="type" value="OK"/>
+        </DesignComponent>
+        <DesignComponent id="okCommand1" typeid="MIDP:javax.microedition.lcdui.Command" uid="31">
+            <Property name="label" value="STRING:Keluar"/>
+            <Property name="priority" value="1"/>
+            <Property name="type" value="OK"/>
+        </DesignComponent>
+        <DesignComponent id="$CommandAction10" typeid="MIDP:CommandAction" uid="32">
+            <Property name="targetDisplayable"/>
+            <Property name="targetForwardDisplayable"/>
+            <Property name="actionSource" value="okCommand1"/>
+            <Property name="actionOrigin" value="Status"/>
+        </DesignComponent>
+        <DesignComponent id="ticker1" typeid="MIDP:javax.microedition.lcdui.Ticker" uid="33">
+            <Property name="string" value="STRING:"/>
+        </DesignComponent>
+    </DesignDocument>
+    <FlowDocument version="1.1">
+        <Node id="$MobileDevice" location="184,280" order=",$StartPoint,,,,,,,,,$ExitPoint,,,,,"/>
+        <Node id="Kunci" location="352,104" order="$CommandAction2,$CommandAction3,$CommandAction6,,,,,,,,$Default,,,,,"/>
+        <Node id="Outputan" location="536,112" order="$CommandAction4,$CommandAction7,,,,,,,,,$Default,,,,,"/>
+        <Node id="NomorHP" location="520,240" order="$CommandAction5,$CommandAction8,,,,,,,,,$Default,,,,,"/>
+        <Node id="Status" location="512,336" order=",$CommandAction10,,,,,,,,,$Default,,,,,"/>
+        <Node id="Inputan" location="176,112" order="$CommandAction1,,,,,,,,,,$Default,,,,,"/>
+        <Link id="$StartPoint$ActionLink" path="224,256,345,256,345,174,109,174,109,88,136,88"/>
+        <Link id="$CommandAction1$ActionLink" path="216,104,274,104,274,80,312,80"/>
+        <Link id="$CommandAction2$ActionLink" path="392,96,461,96,461,88,496,88"/>
+        <Link id="$CommandAction4$ActionLink" path="576,104,643,104,643,154,401,154,401,216,480,216"/>
+        <Link id="$CommandAction5$ActionLink" path="560,232,627,232,627,373,453,373,453,312,472,312"/>
+        <Link id="$CommandAction3$ActionLink" path="392,80,461,80,461,88,496,88"/>
+        <Link id="$CommandAction6$ActionLink" path="392,64,454,64,454,145,109,145,109,88,136,88"/>
+        <Link id="$CommandAction7$ActionLink" path="576,88,643,88,643,24,274,24,274,80,312,80"/>
+        <Link id="$CommandAction8$ActionLink" path="560,216,627,216,627,163,461,163,461,88,496,88"/>
+    </FlowDocument>
+</MVDData>
