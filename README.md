@@ -11,7 +11,7 @@ JAR files manifest file (MANIFEST.MF).
 
       java -jar "name of the program" .jar 
 
-To distribute this project, zip up the dist folder (including the lib folder)
+To distribute this project, zip up the whole folders (including the lib folders)
 and distribute the ZIP file.
 
 Notes:
