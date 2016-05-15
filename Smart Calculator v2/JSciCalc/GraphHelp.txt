@@ -1,5 +1,6 @@
-Help for Graph
-**********************************************************************
+Help for Graph - JSci 
+
+**********************************************************************
 Instructions-
 
 1.The use of the Graph application is to draw the Graph of the function entered by
