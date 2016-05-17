@@ -29,4 +29,5 @@ public class GCJ {
 		solve(); out.flush();
 	}
 	static BufferedReader in; static PrintWriter out;
+	//static BufferedReader in; static PrintWriter out;
 }
