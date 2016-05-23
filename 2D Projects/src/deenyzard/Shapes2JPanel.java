@@ -41,6 +41,7 @@ public class Shapes2JPanel extends JPanel{
 					random.nextInt(256), random.nextInt(256) ) );
 			
 			g2d.fill(star); //draw filled star
+			g2d.fill(star); //draw filled star
 			
 		} // end for loop
 		
