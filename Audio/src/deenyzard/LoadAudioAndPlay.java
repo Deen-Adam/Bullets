@@ -84,5 +84,5 @@ public class LoadAudioAndPlay extends JApplet{
 				else if ( actionEvent.getSource() == stopJButton)
 					currentSound.stop(); // stop AudioClip
 			} // end method actionPerformed
-		} // end class ButtonHandler
+		} // end ButtonHandler
 	} // end class LoadAudioAndPlay
