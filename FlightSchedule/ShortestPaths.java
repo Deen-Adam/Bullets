@@ -13,9 +13,7 @@ class ShortestPaths {
 	private QElement[] qArray;
 	private Multigraph g;
 	
-    //
     // constructor
-    //
     public ShortestPaths(Multigraph G, int startId, 
 			 Input input, int startTime) 
     {
