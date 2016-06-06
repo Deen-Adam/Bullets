@@ -2,7 +2,6 @@ import java.lang.*;
 import java.util.*;
 import java.io.*;
 import java.math.*;
-import java.text.*;
 
 public class core {
 
