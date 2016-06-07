@@ -28,6 +28,6 @@ public class GCJ {
 //		out = new PrintWriter( new FileOutputStream(file + "_" + System.currentTimeMillis() + ".out") );
 		solve(); out.flush();
 	}
-	static BufferedReader in; static PrintWriter out;
+	//static BufferedReader in; static PrintWriter out;
 	//static BufferedReader in; static PrintWriter out;
 }
