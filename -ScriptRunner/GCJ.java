@@ -23,9 +23,9 @@ public class GCJ {
 	public static void main(String[] args) throws IOException {
 		in = new BufferedReader(new InputStreamReader(System.in));
 		out = new PrintWriter(new BufferedOutputStream(System.out));
-//		String file = "A-small";
-//		in = new BufferedReader( new FileReader(file + ".in") );
-//		out = new PrintWriter( new FileOutputStream(file + "_" + System.currentTimeMillis() + ".out") );
+		String file = "A-small";
+		in = new BufferedReader( new FileReader(file + ".in") );
+		out = new PrintWriter( new FileOutputStream(file + "_" + System.currentTimeMillis() + ".out") );
 		solve(); out.flush();
 	}
 	//static BufferedReader in; static PrintWriter out;
