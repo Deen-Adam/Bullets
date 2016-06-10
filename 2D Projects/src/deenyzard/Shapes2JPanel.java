@@ -43,7 +43,7 @@ public class Shapes2JPanel extends JPanel{
 			g2d.fill(star); //draw filled star
 			g2d.fill(star); //draw filled star
 			
-		} // end for loop
+		} 
 		
 	} // end method paintComponent
 } // end class Shapes2JPanel
