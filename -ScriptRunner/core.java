@@ -7,7 +7,7 @@ public class core {
 
 	public static void main (String args[] ) {
 
-		System.out.println("Testing 12345");
+		System.out.println("Testing 123456" +14.5);
 
 	}
 }
