@@ -102,8 +102,6 @@ public class encryption extends JPanel implements ActionListener {
     bclear.addActionListener(this);
     bexit.addActionListener(this);
 
-    //tplain_txt.addKeyListener(this);
-
 
     }
     
