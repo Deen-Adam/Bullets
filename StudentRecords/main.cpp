@@ -6,7 +6,8 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 using namespace std;
 
-// NURA [SCM-00000]
+// Author
+Deen Adam
 
 //function prototype
 void displayout();
