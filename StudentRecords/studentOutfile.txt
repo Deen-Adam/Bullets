@@ -1,0 +1,33 @@
+ Student Names   Test   PAssignment   Exam   CourseWork  Final Mark    Grade 
+ ----------------------------------------------------------------------------------------------- 
+Ahmed     Ali        78            60            60      36.3      66.3            B Credit
+Ali       Sanusi     44            37            71     20.95     56.45           C+ Credit
+Allen     Woody      46            42            42      22.4      43.4              D Fail
+Batis     Hassan     20            29            20     11.35     21.35              F Fail
+Chan      Hong       80            75            60     39.25     69.25              F Fail
+Cheah     MayHwa     40            60            75        23      60.5           B- Credit
+Davis     Gina       50            30            30        22        37              F Fail
+Hii       Chris      75            84            93     38.85     85.35       A Distinction
+Ho        MunYee     39            48            46     20.85     43.85              D Fail
+Hoong     Asley      66            60            65      32.1      64.6              D Fail
+Joe       Tasha      71            75            65      36.1      68.6            B Credit
+Kasim     Fatimah    73            65            40      35.3      55.3           C+ Credit
+Kee       SimSim     80            75            97     39.25     87.75       A Distinction
+Kim       SamLee     25            34            23     13.85     25.35              F Fail
+Kok       LeeMing    83            54            99     37.15     86.65       A Distinction
+Kumar     Siva       55            50            70     26.75     61.75           B- Credit
+Lee       Mike       73            73            70      36.5      71.5           B+ Credit
+Liew      AhLian     40            70            66      24.5      57.5           C+ Credit
+Lim       AiNi       48            40            30      22.8      37.8              F Fail
+Mamadou   Adios      25            65            21      18.5        29              F Fail
+Muhamad   Ayaz       32            83            60     23.65     53.65              C Pass
+Murugan   vellu      20            23            31     10.45     25.95              F Fail
+Nagata    Akino      83            95            40      43.3      63.3           B- Credit
+Sim       Mikwee     41            14            52     16.45     42.45              D Fail
+Tan       AhBeng     58            40            59      26.3      55.8           C+ Credit
+Tan       Doreen     44            10            25      16.9      29.4              F Fail
+Tarig     Muhammed   91            91            57      45.5        74           B+ Credit
+Ting      Tong       53            38            45     24.25     46.75             C- Fail
+Yan       Elmen      86            80            75      42.1      79.6             C- Fail
+Zou       Zhen       60            81            50     33.15     58.15           C+ Credit
+Zou       Zhen       60            81            50     33.15     58.15           C+ Credit
