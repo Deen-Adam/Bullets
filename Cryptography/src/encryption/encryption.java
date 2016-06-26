@@ -195,13 +195,6 @@ public class encryption extends JPanel implements ActionListener {
  }
 }
     
-/*public void keyPressed(KeyEvent ke)
-    {
-    bencrypt.setEnabled(true);
-    }*/
-    /**
-     * @param args the command line arguments
-     */
     
     public static void main(String[] args) {
         JFrame n=new JFrame();
