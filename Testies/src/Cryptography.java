@@ -23,8 +23,6 @@ public class Cryptography {
 
     System.out.println("input : " + new String(input));
 
-    // encryption pass
-
     cipher.init(Cipher.ENCRYPT_MODE, key);
 
     byte[] cipherText = new byte[cipher.getOutputSize(input.length)];
