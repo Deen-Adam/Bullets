@@ -1,7 +1,5 @@
 package FlightScheduler;
 
-//
-// PRIORITYQUEUE.JAVA
 // A priority queue class supporting sundry operations needed for
 // Dijkstra's algorithm.
 //
