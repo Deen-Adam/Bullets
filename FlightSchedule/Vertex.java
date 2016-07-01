@@ -26,13 +26,11 @@ public class Vertex {
     
     // id()
     // Return our identifier.
-    //
     public int id() { return _id; }
     
     
     // adj()
     // Return an iterator to list all of our edges.
-    //
     public EdgeIterator adj() 
     {
 	EdgeIterator a = new EdgeIterator(this);
@@ -42,7 +40,6 @@ public class Vertex {
     
     // addEdge()
     // Add an edge to our adjacency list.
-    //
     public void addEdge(Edge e) 
     {
 	neighbors.add(e);
@@ -51,7 +48,6 @@ public class Vertex {
     
     // toString()
     // Identify us by our id.
-    //
     public String toString() { return "" + _id; }
     
     
