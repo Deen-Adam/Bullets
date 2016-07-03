@@ -2,7 +2,6 @@ package FlightScheduler;
 
 // A priority queue class supporting sundry operations needed for
 // Dijkstra's algorithm.
-//
 
 class PriorityQueue<T> {
 	
@@ -13,7 +12,6 @@ class PriorityQueue<T> {
 	private int size;
     
     // constructor
-    //
     public PriorityQueue()
     {
     	//create an array of size 1
