@@ -2,15 +2,14 @@ package FlightScheduler;
 
 // VERTEX.JAVA
 // Vertex class for the multigraph
-//
+
 // A Vertex is created with an integer identifier. Subclass 
 // it if you want to store more complex info.
-//
+
 // To enumerate a vertex's adjacency list, you call its adj()
 // method, which returns an iterator "ei" of type EdgeIterator for 
 // the list. You can call ei.hasNext() to see if there is another
 // edge available, and ei.next() to get it.
-//
 
 import java.util.*;
 
