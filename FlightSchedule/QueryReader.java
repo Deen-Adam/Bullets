@@ -119,7 +119,6 @@ class QueryReader {
 	    {
 		q.tos = new String [tos.size()];
 		tos.toArray(q.tos);
-//		System.out.println(q.from);
 		return q;
 	    }
     }
