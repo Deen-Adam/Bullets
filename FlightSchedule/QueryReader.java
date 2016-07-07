@@ -1,13 +1,9 @@
 package FlightScheduler;
 
-//
 // QUERYREADER.JAVA
 // Parse a file of flight queries.  Return an array of all queries as
-// Query objects.
-//
 // A query contains a start airport followed by one or more end airports,
 // all separated by whitespace on a single line.
-//
 
 import java.util.*;
 import java.io.*;
