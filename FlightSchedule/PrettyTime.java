@@ -10,7 +10,6 @@ class PrettyTime {
     //
     // toTime()
     // convert raw 24-hour time value to minutes since midnight.
-    //
     static int toTime(int timeRaw)
     {
 	int hour   = (timeRaw / 100) % 24;
