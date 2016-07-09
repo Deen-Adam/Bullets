@@ -23,7 +23,7 @@ public class Vertex {
     }
     
     
-    // id()
+    
     // Return our identifier.
     public int id() { return _id; }
     
