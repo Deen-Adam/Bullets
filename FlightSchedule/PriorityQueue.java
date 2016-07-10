@@ -31,7 +31,6 @@ class PriorityQueue<T> {
     // Insert a pair (key, value) into the queue, and return
     // a Handle to this pair so that we can find it later in
     // constant time.
-    //
     Handle insert(int key, T value)
     {
     	//if Q is full, double its size
@@ -65,7 +64,6 @@ class PriorityQueue<T> {
     }
     
     // Return the smallest key in the queue.
-    //
     public int min()
     {	
     	//Q[1] will always have the smallest key
