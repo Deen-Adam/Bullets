@@ -1,9 +1,7 @@
 package FlightScheduler;
 
-//
 // PRETTYTIME.JAVA
 // Time printing routines
-//
 
 class PrettyTime {
     
