@@ -5,7 +5,6 @@ package FlightScheduler;
 
 class PrettyTime {
     
-    //
     // toTime()
     // convert raw 24-hour time value to minutes since midnight.
     static int toTime(int timeRaw)
@@ -40,7 +39,6 @@ class PrettyTime {
 	return len;
     }
     
-    //
     // elapsedToString()
     // Pretty-print an elapsed time interval.
     // Input times are in minutes since midnight.
