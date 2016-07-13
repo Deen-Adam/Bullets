@@ -15,7 +15,6 @@ class PrettyTime {
 	return hour * 60 + minute;
     }
     
-    //
     // toString()
     // Pretty-print a time.
     // Input time is in minutes since midnight.
@@ -28,7 +27,6 @@ class PrettyTime {
     }
     
     
-    //
     // elapsed()
     // Compute elapsed time between two clock times
     static int elapsed(int startTime, int endTime)
