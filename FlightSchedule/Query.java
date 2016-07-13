@@ -1,8 +1,6 @@
 package FlightScheduler;
 
-//
 // QUERY.JAVA
-//
 // Describes a flight query 
 
 import java.util.*;
