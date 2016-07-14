@@ -1,9 +1,7 @@
 package FlightScheduler;
 
-//
 // SHORTESTPATHS.JAVA
 // Compute shortest paths in a graph.
-//
 
 class ShortestPaths {
     
