@@ -1,6 +1,5 @@
 package FlightScheduler;
 
-//
 // INPUT.JAVA
 // Input reader for Lab 4b airport and flight data
 //
