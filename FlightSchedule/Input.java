@@ -2,12 +2,12 @@ package FlightScheduler;
 
 // INPUT.JAVA
 // Input reader for Lab 4b airport and flight data
-//
+
 // To read all the information necessary for this lab:
 //   (1) Create an object (say, "input") of type Input.
 //   (2) Call input.readAirports(<airportFileName>)
 //   (3) Call input.readFlights(<flightFileName>)
-//
+
 // Note that you *must* do (3) after (2).
 //
 // If all goes well, you will then have access to
