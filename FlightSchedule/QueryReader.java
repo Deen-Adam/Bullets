@@ -10,7 +10,6 @@ import java.io.*;
 
 class QueryReader {
     
-    //
     // readQueries()
     // Given the name of a query file, read all the queries in
     // that file and return them as an array of Query objects.
