@@ -23,7 +23,6 @@ public class Multigraph {
     
     // nVertices()
     // Return number of vertices in graph.
-    // 
     public int nVertices() 
     {
 	return vertices.size();
