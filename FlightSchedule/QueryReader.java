@@ -15,7 +15,6 @@ class QueryReader {
     // that file and return them as an array of Query objects.
     // If any error is encountered parsing the file, return a
     // NULL array.
-    //
     public static Query[] readQueries(String fileName)
     {
 	BufferedReader r;
