@@ -1,6 +1,5 @@
 package FlightScheduler;
 
-//
 // TOKENIZER.JAVA
 // Given a string, break it into whitespace-delimited tokens.
 // Return successive tokens on each nextToken() call.
