@@ -45,7 +45,6 @@ class ShortestPaths {
     // Return an array containing a list of edge ID's forming
     // a shortest path from the start vertex to the specified
     // end vertex.
-    //
     public int [] returnPath(int endId) 
     { 
 	
