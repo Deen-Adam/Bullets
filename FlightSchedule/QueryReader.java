@@ -68,11 +68,9 @@ class QueryReader {
     }
     
     
-    //
     // parseQuery()
     // Parse a single query from a line read from the query file.
     // Return null if we cannot parse the query.
-    //
     static Query parseQuery(String queryString)	
     {
 	Tokenizer t = new Tokenizer(queryString);
