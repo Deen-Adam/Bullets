@@ -23,7 +23,7 @@ import java.util.*;
 
 class Input {
     
-    //
+    
     // Airport information
     //
     class Airport {
