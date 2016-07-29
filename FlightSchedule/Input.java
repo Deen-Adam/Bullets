@@ -25,7 +25,6 @@ class Input {
     
     
     // Airport information
-    //
     class Airport {
 	public String name; // name of airport (3-letter code)
 	public int offset;  // offset of local time from GMT (in minutes)
