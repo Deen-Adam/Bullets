@@ -36,7 +36,6 @@ class Input {
     //
     // Flight information
     // NB: all times are GMT, in minutes since midnight
-    //
     class Flight {
 	public String name; // flight name
 	public Airport startAirport, endAirport; // flight termini
