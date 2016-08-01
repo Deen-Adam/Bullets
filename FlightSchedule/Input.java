@@ -43,7 +43,6 @@ class Input {
     
    
     // array of all airports read from input
-    //
     public Airport airports[];
     
     //
