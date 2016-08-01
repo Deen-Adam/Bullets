@@ -41,7 +41,7 @@ class Input {
 	public int startTime, endTime;           // departure and arrival times
     }
     
-    //
+   
     // array of all airports read from input
     //
     public Airport airports[];
