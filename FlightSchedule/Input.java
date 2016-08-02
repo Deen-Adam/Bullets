@@ -32,7 +32,7 @@ class Input {
 	public int id;      // convenient integer identifier
     }
     
-    //
+
     // Flight information
     // NB: all times are GMT, in minutes since midnight
     class Flight {
