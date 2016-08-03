@@ -9,7 +9,6 @@ package FlightScheduler;
 //   (3) Call input.readFlights(<flightFileName>)
 
 // Note that you *must* do (3) after (2).
-//
 // If all goes well, you will then have access to
 //
 //   * input.airports   -- an array of Airport objects
