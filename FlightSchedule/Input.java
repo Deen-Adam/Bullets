@@ -44,7 +44,7 @@ class Input {
     // array of all airports read from input
     public Airport airports[];
     
-    //
+   
     // array of all flights read from input
     //
     public Flight  flights[];
