@@ -14,7 +14,7 @@ package FlightScheduler;
 //   * input.airports   -- an array of Airport objects
 
 //   * input.flights    -- an array of Flight objects
-//
+
 //   * input.airportMap -- a HashMap mapping airport codes to the
 //                         corresponding Airport objects
 
