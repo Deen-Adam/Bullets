@@ -12,7 +12,7 @@ package FlightScheduler;
 // If all goes well, you will then have access to
 
 //   * input.airports   -- an array of Airport objects
-//
+
 //   * input.flights    -- an array of Flight objects
 //
 //   * input.airportMap -- a HashMap mapping airport codes to the
