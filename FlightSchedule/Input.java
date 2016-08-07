@@ -50,7 +50,6 @@ class Input {
     public Flight  flights[];
     
     // mapping from airport codes (strings) to Airport objects
-    //
     public HashMap<String,Airport> airportMap;
     
     //////////////////////////////////////////////////////////////////////
