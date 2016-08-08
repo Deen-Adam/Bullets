@@ -90,7 +90,6 @@ class Input {
 	aplist.toArray(airports);
     }
     
-    //
     // readFlights()
     // read the flight file
     //
