@@ -63,7 +63,6 @@ class Input {
     //
     // readAirports()
     // Read the airport file
-    //
     public void readAirports(String filename)
     {
 	FileParser fp = new FileParser(filename);
