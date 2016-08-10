@@ -46,7 +46,6 @@ class Input {
     
    
     // array of all flights read from input
-    //
     public Flight  flights[];
     
     // mapping from airport codes (strings) to Airport objects
