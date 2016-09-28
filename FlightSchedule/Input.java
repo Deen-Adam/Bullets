@@ -59,7 +59,7 @@ class Input {
 	airportMap = new HashMap<String,Airport>();
     }
     
-    //
+    
     // readAirports()
     // Read the airport file
     public void readAirports(String filename)
