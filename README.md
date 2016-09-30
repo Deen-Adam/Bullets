@@ -1,4 +1,4 @@
-# Intermediate-Programs - Java
+# Intermediate Programs - Java
 A wide range of intermediate level  programs written in Java. One of the programs 'FlightSchedule' was written during the past Google HashCode 2016 Competition. 
 
 When you build Java application project that has a main class, the IDE
