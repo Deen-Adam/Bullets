@@ -90,7 +90,6 @@ class Input {
     
     // readFlights()
     // read the flight file
-    //
     public void readFlights(String filename)
     {
 	FileParser fp = new FileParser(filename);
