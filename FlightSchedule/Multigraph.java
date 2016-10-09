@@ -39,7 +39,6 @@ public class Multigraph {
         
     // addVertex()
     // Add a vertex to the graph.
-    //
     public void addVertex(Vertex v) 
     {
 	vertices.add(v);
