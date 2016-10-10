@@ -50,7 +50,7 @@ class QueryReader {
 				    Query q = parseQuery(ts);
 				    if (q == null) return null;
 				    a.add(q);
-//				    System.out.println(q);
+				    System.out.println(q);
 				}
 			}
 		}
