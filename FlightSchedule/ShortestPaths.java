@@ -120,7 +120,7 @@ class QElement{
 	public String toString()
     {
 		/*The string representation for QElements is its vertex's
-		 * string representation and its distance from the start vertex
+		  string representation and its distance from the start vertex
 		 */
     	String str = vert.toString() + "," + dist;
 		return str;
