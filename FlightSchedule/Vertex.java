@@ -15,7 +15,7 @@ import java.util.*;
 
 public class Vertex {
     
-    // Constructor (takes an identifier)
+    // Constructor (takes identifier)
     public Vertex(int id) 
     { 
 	_id = id;
