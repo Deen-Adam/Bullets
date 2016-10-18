@@ -31,7 +31,6 @@ public class Multigraph {
     
     // get()
     // Return a specified vertex
-    //
     public Vertex get(int id)
     {
 	return vertices.get(id);
