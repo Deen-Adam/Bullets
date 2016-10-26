@@ -15,8 +15,7 @@ package FlightScheduler;
 
 //   * input.flights    -- an array of Flight objects
 
-//   * input.airportMap -- a HashMap mapping airport codes to the
-//                         corresponding Airport objects
+//   * input.airportMap -- a HashMap mapping airport codes to the corresponding Airport objects
 
 import java.util.*;
 
