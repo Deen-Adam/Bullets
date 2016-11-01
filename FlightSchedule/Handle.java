@@ -6,7 +6,6 @@ public class Handle {
 	//public int key;
 	
     // constructor
-    //
     public Handle(int i)
     {
     	indx = i;
