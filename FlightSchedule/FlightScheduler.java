@@ -2,7 +2,6 @@ package FlightScheduler;
 
 // FlightScheduler.JAVA
 // Driver for airline scheduling shortest-paths code
-//
 
 class FlightScheduler {
 
