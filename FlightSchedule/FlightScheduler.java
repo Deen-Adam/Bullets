@@ -20,7 +20,7 @@ class FlightScheduler {
 	input.readFlights(args[1]);
 	System.out.println("Read " + input.flights.length + " flights");
 	
-	//
+	
 	// construct the input graph
 	//
 	
