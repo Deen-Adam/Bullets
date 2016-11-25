@@ -22,8 +22,6 @@ class FlightScheduler {
 	
 	
 	// construct the input graph
-	//
-	
 	Multigraph G = new Multigraph();
 	
 	// Allocate a vertex for every airport.  Logically, the jth 
