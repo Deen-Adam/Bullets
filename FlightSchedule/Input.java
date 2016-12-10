@@ -50,7 +50,7 @@ class Input {
     // mapping from airport codes (strings) to Airport objects
     public HashMap<String,Airport> airportMap;
     
-    ///////////////////////////////////////
+    /////////////////////////////////////
     
     // constructor
     public Input()
