@@ -15,8 +15,6 @@ package FlightScheduler;
 
 //   * input.flights    -- an array of Flight objects
 
-//   * input.airportMap -- a HashMap mapping airport codes to the corresponding Airport objects
-
 import java.util.*;
 
 class Input {
@@ -50,7 +48,7 @@ class Input {
     // mapping from airport codes (strings) to Airport objects
     public HashMap<String,Airport> airportMap;
     
-    //////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////
     
     // constructor
     public Input()
