@@ -21,7 +21,7 @@ class Input {
     
     
     // Airport information
-    class Airport {
+    class Airports {
 	public String name; // name of airport (3-letter code)
 	public int offset;  // offset of local time from GMT (in minutes)
 	
@@ -48,7 +48,7 @@ class Input {
     // mapping from airport codes (strings) to Airport objects
     public HashMap<String,Airport> airportMap;
     
-    /////////////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////\\\
     
     // constructor
     public Input()
