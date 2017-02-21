@@ -48,7 +48,7 @@ class Input {
     // mapping from airport codes (strings) to Airport objects
     public HashMap<String,Airport> airportMap;
     
-    /////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////
     
     // constructor
     public Input()
@@ -85,8 +85,8 @@ class Input {
 	aplist.toArray(airports);
     }
     
-    // readFlights()
-    // read the flight file
+ 	
+    // read the flight file 
     public void readFlights(String filename)
     {
 	FileParser fp = new FileParser(filename);
