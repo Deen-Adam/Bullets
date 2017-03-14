@@ -136,8 +136,6 @@ class Input {
     }
     
     
-    
-    // toTime()
     // convert raw time value and AM/PM in local time, to minutes
     // since midnight in GMT, using supplied offset from GMT.
     int toTime(int timeRaw, String ampm, int offset)
