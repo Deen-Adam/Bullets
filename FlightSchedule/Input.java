@@ -136,6 +136,23 @@ class Input {
 	flights = new Flight [fllist.size()];
 	fllist.toArray(flights);
     }
+	
+	
+	// convert raw time value and AM/PM in local time, to minutes
+    // since midnight in GMT, using supplied offset from GMT.
+    int toTime(int timeRaw, String ampm, int offset)
+    {
+	int hour   = (timeRaw / 100) % 12;
+	int minute = timeRaw % 100;
+	
+	boolean isPM = (ampm.charAt(0) == 'P');
+	
+	int minutes = hour * 60 + minute;
+	if (isPM) minutes += 12 * 60;
+	
+	int finalTime = (minutes - offset + 24 * 60) % (24 * 60);
+	return finalTime;
+    }
     
     
     // convert raw time value and AM/PM in local time, to minutes
